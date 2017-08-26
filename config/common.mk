@@ -225,7 +225,7 @@ ifdef VALIDUS_BUILD_EXTRA
 endif
 
 ifndef VALIDUS_BUILD_TYPE
-    VALIDUS_BUILD_TYPE := UNOFFICIAL
+    VALIDUS_BUILD_TYPE := SHISHUlT
 endif
 
 # Set all versions
@@ -241,3 +241,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 EXTENDED_POST_PROCESS_PROPS := vendor/validus/tools/validus_process_props.py
 
+BUILD_TRUSHISHU := true
+include vendor/shishu/common.mk
